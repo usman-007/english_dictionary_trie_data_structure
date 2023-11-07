@@ -2,9 +2,6 @@
  *
  * Using trie and linked List data structures
  *
- * by Muhammad Usman Tahir and Farhan Majeed
- *                  BSCS 9A
- *
 */
 
 
@@ -320,7 +317,7 @@ public:
 
 
 void parser(Trie* dictionary) {
-    fstream myFileStream("C:\\Users\\Computer\\CLionProjects\\FinalProject\\proj2.csv");
+    fstream myFileStream("proj2.csv");
 
     if (!myFileStream.is_open()) {
         cout << "File failed to open." << endl;
